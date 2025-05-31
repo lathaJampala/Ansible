@@ -30,7 +30,7 @@
       state: directory
 
   - name: download frontend code
-    ansible.buitlin.get_url:
+    ansible.builtin.get_url:
       url: https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip
       dest: /tmp/frontend.zip
 
