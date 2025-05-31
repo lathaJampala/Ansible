@@ -1,4 +1,4 @@
-- name : configure frontend component
+- name: configure frontend component
    hosts: local
    connection: local
    tasks:
